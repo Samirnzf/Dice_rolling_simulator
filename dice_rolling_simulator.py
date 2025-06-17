@@ -31,8 +31,10 @@ while True:
         rematch = input("\nWould you like to play again?(Y/n): ")
         if rematch in ["Y", "y"]:
             dice = []
+            total = 0
             break
         elif rematch == "n":
+            print("\nThank you for playing Dice Rolling Simulator!")
             exit()
         else:
             print("Invalid input. Please try again\n\n")
